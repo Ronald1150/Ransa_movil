@@ -1,0 +1,15 @@
+-- Insertar a Tatuaje
+INSERT INTO Tatuaje (Nombre, Estilo, Descripción) VALUES 
+('Dragón', 'Realista', 'Un tatuaje de un dragón en un estilo realista, simboliza fuerza y poder.'),
+('Flor de loto', 'Tradicional', 'Un tatuaje de una flor de loto, representa la pureza y la iluminación.'),
+('Calavera', 'Neotradicional', 'Un tatuaje de una calavera, simboliza la muerte y la vida.'),
+('Mariposa', 'Acuarela', 'Un tatuaje de una mariposa en estilo acuarela, representa transformación y libertad.'),
+('Ancla', 'Old School', 'Un tatuaje de un ancla, simboliza estabilidad y esperanza.');
+
+-- Insertar a Recordatorio_Tatuaje
+INSERT INTO Recordatorio_Tatuaje (Fecha_Hora, ID_Tatuaje) VALUES 
+('2024-11-28 08:00:00', 1),
+('2024-11-28 14:00:00', 1),
+('2024-11-28 08:00:00', 2),
+('2024-11-28 14:00:00', 2),
+('2024-11-28 08:00:00', 3);

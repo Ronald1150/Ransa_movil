@@ -1,0 +1,15 @@
+-- Crear tabla Tatuaje
+CREATE TABLE IF NOT EXISTS Tatuaje (
+    ID_Tatuaje INTEGER PRIMARY KEY AUTOINCREMENT,
+    Nombre TEXT NOT NULL,
+    Estilo TEXT NOT NULL,
+    Descripción TEXT
+);
+
+-- Crear tabla Recordatorio_Tatuaje
+CREATE TABLE IF NOT EXISTS Recordatorio_Tatuaje (
+    ID_Recordatorio INTEGER PRIMARY KEY AUTOINCREMENT,
+    Fecha_Hora TEXT NOT NULL,
+    ID_Tatuaje INTEGER,
+    FOREIGN KEY (ID_Tatuaje) REFERENCES Tatuaje(ID_Tatuaje)
+);
