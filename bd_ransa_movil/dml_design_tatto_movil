@@ -1,0 +1,15 @@
+
+INSERT INTO Tatuaje (Nombre, Estilo, Descripción) VALUES 
+('Tiendas','TiendasLocales','Sucursales','PuntosVenta'),
+('InventarioTiendas','TiendasOnline','CatalogoTiendas','TiendasFisicas'),
+('Mundo Esencial','Luz y Sombra','Tierra Verde','Rincón de Ideas'),
+('Esfera Chic','El Bazar Moderno','Raíz Urbana','Cielo Abierto'),
+('Pixel Perfecto','Éxito Exprés','Aurora Market','El Refugio Vintage');
+
+
+INSERT INTO Recordatorio_tienda (Fecha_Hora, ID_tienda) VALUES 
+('2024-11-28 08:00:00', 1),
+('2024-11-28 14:00:00', 1),
+('2024-11-28 08:00:00', 2),
+('2024-11-28 14:00:00', 2),
+('2024-11-28 08:00:00', 3);

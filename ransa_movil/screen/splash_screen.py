@@ -5,7 +5,7 @@ def splashScreen()-> rx.Component:
         rx.container(
             rx.color_mode.button(position="top-right"),
             rx.vstack(
-                rx.image(src="https://i.pinimg.com/736x/50/61/02/5061024b851d9bc919130d805544f78e.jpg", width="100px", padding="10px", margin_bottom="35px"),
+                rx.image(src="C:\Users\rq622\Documents\Proyecto_Ronald\aplicasion_movil\Ransa_apliacasion\assets\mercado.jpeg", width="100px", padding="10px", margin_bottom="35px"),
                 rx.text("R_notifica", size="6"),
                 display="flex",
                 align_items="center",

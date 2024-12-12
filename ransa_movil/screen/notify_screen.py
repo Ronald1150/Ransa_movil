@@ -10,8 +10,8 @@ def notifyScreen() -> rx.Component:
                 "border_bottom":"2px solid #c56dfc"},
             margin_bottom="100px"),
             rx.vstack(
-                rx.button("tines un nuevo estilo de tatuaje", height="50px", background_color="pink"),
-                rx.button("se añadio un nuevo estilo", height="50px", background_color="pink"),
-                rx.button("tines un diseño pendiente", height="50px", background_color="pink"),
-                rx.button("tines una cita pendiente", height="50px", background_color="pink")
+                rx.button("ya tienes los procductos", height="50px", background_color="pink"),
+                rx.button("se añadio los productos", height="50px", background_color="pink"),
+                rx.button("tienes un prodicto pendiente", height="50px", background_color="pink"),
+                rx.button("ya puedes recoger tu producto", height="50px", background_color="pink")
             )))

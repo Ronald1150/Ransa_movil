@@ -7,8 +7,8 @@ def homeScreen() -> rx.Component:
             rx.text("notificaciones", margin_top="15px"),
             rx.vstack(
                 rx.text("VIENVENIDO ", size="6", font_size="poppins"),
-                rx.text("encontraras tu estilo de tatuaje", size="4", text_align="center"),
-                rx.button("BUSCAR TU TATUAJE ", font_size="poppins", background_color="gray", margin_top="15px",
+                rx.text("Buscaste tu producto", size="4", text_align="center"),
+                rx.button("Buscar producto ", font_size="poppins", background_color="gray", margin_top="15px",
                           _hover={"background_color": "lightgreen"}),
                 display="flex",
                 align_items="center",
